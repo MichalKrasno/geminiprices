@@ -7,7 +7,8 @@ const sourcefile = './testETHUSD.json';
 
 const tradeSize = 5; //when calculating the weighted avg price, how much ETH do you want to be able to trade?
 let source    = makeSource(),
-    assembler = new Assembler();
+    assembler = new Assembler(),
+    output = [];
 
 source.output.on("data", function(chunk){
     assembler[chunk.name] && assembler[chunk.name](chunk.value);
@@ -22,7 +23,7 @@ source.output.on("end", function(){
         console.log('Done!');
     });
 
-    csvStream.pipe(writeableStream);
+    //csvStream.pipe(writeableStream);
 
     //console.log(file[0].data.events[0].price);
 
@@ -34,39 +35,53 @@ source.output.on("end", function(){
     let currentTime = file[0].time; //Set the time as when we recieved the orderbook data
     //console.log(currentTime);
 
-    //Read in the initial state of the orderbook
-    let ob = [];
+    //Read in the initial state of the orderbook ... split this up into bid and ask objects and you can get rid of lines 58-69
+    let obBid = [];
+    let obAsk = [];
     file[0].data.events.forEach(function(event) {
-        ob.push({
-            "side": event.side,
-            "price": event.price,
-            "remaining": event.remaining
-        });
+        if(event.side == 'bid'){
+            obBid.push({
+                "price": parseFloat(event.price, 10),
+                "remaining": parseFloat(event.remaining, 10)
+            });   
+        } else {
+            obAsk.push({
+                "price": parseFloat(event.price, 10),
+                "remaining": parseFloat(event.remaining, 10)
+            });   
+        }
+
     });
 
     //Make sure the orderbook array is sorted in ascending order by price
-    ob.sort(function(a,b) { return parseFloat(a.price) - parseFloat(b.price);}); //Q: Is there any way to abstract this? I reuse the exact same code to sort the orderbook whenever I add a new price level
+    obBid.sort(function(a,b) { return a.price - b.price;}); 
+    obAsk.sort(function(a,b) { return a.price - b.price;}); 
 
     //Should I also sort the whole file array by file[i].time to ensure that when we loop through below it's in ascending order?
     //Choose to use a for loop so I can easily skip over the 0 element which is the initial state of the orderbook, and for loops are faster and this is where the bulk of the proccessing will happen
     for(let i = 1; i < file.length; i++) {
         //Check to see if we're onto the next second, if so write to the csv
         if(parseInt(file[i].time) > parseInt(currentTime)) {
+            obBid.sort(function(a,b) { return a.price - b.price;}); //Sort to make sure that any insertions done durring the last second are sorted
+            obAsk.sort(function(a,b) { return a.price - b.price;}); //Sort to make sure that any insertions done durring the last second are sorted
 
-            //Split order book into bid and ask sides
-            obBid = ob.filter(function(priceLevel) {
-                return priceLevel.side == "bid"
-            });
-            obBid.sort(function(a,b) { return parseFloat(a.price) - parseFloat(b.price);}); //Q: Do I really need to sort? I feel like I'm just making sure
             let highestBid = obBid[obBid.length-1];
             let highestBidIndex = obBid.length-1;
-            obAsk = ob.filter(function(priceLevel) {
-                return priceLevel.side == "ask"
-            });
-            obAsk.sort(function(a,b) { return parseFloat(a.price) - parseFloat(b.price);}); //Q: Do I really need to sort? I feel like I'm just making sure
             let lowestAskIndex = 0;
             let lowestAsk = obAsk[lowestAskIndex];
-    /*
+
+            //Split order book into bid and ask sides
+            // obBid = ob.filter(function(priceLevel) {
+            //     return priceLevel.side == "bid"
+            // });
+            // 
+            
+            // obAsk = ob.filter(function(priceLevel) {
+            //     return priceLevel.side == "ask"
+            // });
+            // 
+            
+            /*
             //Find the highest bid price and save it if remaining >= tradeSize
             let highestBid = _.maxBy(obBid, function(priceLevel) { 
                     return parseFloat(priceLevel.price);
@@ -75,7 +90,7 @@ source.output.on("end", function(){
             {
                 return (level.side == highestBid.side) && (level.price == highestBid.price);
             });
-    */
+            */
             // console.dir(highestBid);
             // console.log("at ob index" + highestBidIndex);
             // console.dir(lowestAsk);
@@ -87,14 +102,14 @@ source.output.on("end", function(){
             let remainingTradeSize = tradeSize;
             let priceVolume = [];
             while (remainingTradeSize > 0){
-                if(parseFloat(obBid[highestBidIndex].remaining) > remainingTradeSize) {
+                if((obBid[highestBidIndex].remaining) > remainingTradeSize) {
                     //This is the last price level we need to calculate from
-                    priceVolume.push(parseFloat(obBid[highestBidIndex].price) * remainingTradeSize)
+                    priceVolume.push((obBid[highestBidIndex].price) * remainingTradeSize)
                     remainingTradeSize -= remainingTradeSize;
                 } else {
                     //Calculate and store the priceVolume for the volume available at this price level, decrease the remainingTrade size by the volume we got and move to the next highest bid
-                    priceVolume.push(parseFloat(obBid[highestBidIndex].price) * parseFloat(obBid[highestBidIndex].remaining));
-                    remainingTradeSize -= parseFloat(obBid[highestBidIndex].remaining);
+                    priceVolume.push((obBid[highestBidIndex].price) * (obBid[highestBidIndex].remaining));
+                    remainingTradeSize -= (obBid[highestBidIndex].remaining);
                     highestBidIndex--;
                 }
             }
@@ -105,14 +120,14 @@ source.output.on("end", function(){
             remainingTradeSize = tradeSize;  //reset so we can reuse this variable
             priceVolume = []; //reset so we can reuse this variable
             while (remainingTradeSize > 0){
-                if(parseFloat(obAsk[lowestAskIndex].remaining) > remainingTradeSize) {
+                if((obAsk[lowestAskIndex].remaining) > remainingTradeSize) {
                     //This is the last price level we need to calculate from
-                    priceVolume.push(parseFloat(obAsk[lowestAskIndex].price) * remainingTradeSize)
+                    priceVolume.push((obAsk[lowestAskIndex].price) * remainingTradeSize)
                     remainingTradeSize -= remainingTradeSize;
                 } else {
                     //Calculate and store the priceVolume for the volume available at this price level, decrease the remainingTrade size by the volume we got and move to the next lowest ask
-                    priceVolume.push(parseFloat(obAsk[lowestAskIndex].price) * parseFloat(obAsk[lowestAskIndex].remaining));
-                    remainingTradeSize -= parseFloat(obAsk[lowestAskIndex].remaining);
+                    priceVolume.push((obAsk[lowestAskIndex].price) * (obAsk[lowestAskIndex].remaining));
+                    remainingTradeSize -= (obAsk[lowestAskIndex].remaining);
                     lowestAskIndex++;
                 }
             }
@@ -121,7 +136,8 @@ source.output.on("end", function(){
 
 
             //Write to csv
-            csvStream.write({
+            //Writing to file system is slow as fuck ... if you can save writing to the csv till one point at the very end it'll be a lot fast
+            output.push({
                 unixTime: parseInt(currentTime),
                 bid: bid,
                 ask: ask,
@@ -138,31 +154,47 @@ source.output.on("end", function(){
         //if there is a trade there will be multiple events, we're only interested in the 'change' events as they change the orderbook
         file[i].data.events.forEach(function(event) {
             
-            if(event.type === "change"){
+            if(event.type === "change" && event.side === 'bid'){
                 //check to see if the update is to an existing level and save the index of that level if it is
-                let priceLevel = _.findIndex(ob, function(level) {
-                    return (level.side == event.side) && (level.price == event.price);
+                let priceLevel = _.findIndex(obBid, function(level) {
+                    return (level.price == event.price);
                 });
                 //if new, add that price level to the orderbook
                 if(priceLevel == -1){
-                    ob.push({
-                        "side": event.side,
-                        "price": event.price,
-                        "remaining": event.remaining
+                    obBid.push({
+                        "price": parseFloat(event.price),
+                        "remaining": parseFloat(event.remaining)
                     });
-                    ob.sort(function(a,b) { return parseFloat(a.price) - parseFloat(b.price);}); //Q: Is there any way to abstract this?
+                    //ob.sort(function(a,b) { return (a.price) - (b.price);}); //Optimization, don't need to do this each time b/c I do it once a second
                     //console.log("Orderbook size: " + ob.length);
                 } else {
                     //update that pricelevel in the orderbook
-                    //Check to make sure we're updating a price level on the same side of the orderbook
-                    if(ob[priceLevel].side == event.side){
-                        ob[priceLevel].remaining = event.remaining;
-                    } else {
-                        //console.error("ERROR: Order book is messed up, you've got updates to the wrong side of the book at " + currentTime);
-                    }
+                    obBid[priceLevel].remaining = event.remaining;
                     //Remove the priceLevel if remaining volume is 0
-                    if(ob[priceLevel].remaining == "0"){
-                        ob.splice(priceLevel, 1);
+                    if(obBid[priceLevel].remaining == "0"){
+                        obBid.splice(priceLevel, 1);
+                    }
+                    //console.log("Orderbook size: " + ob.length);        
+                }          
+            } else if (event.type === "change" && event.side === 'ask'){
+                //check to see if the update is to an existing level and save the index of that level if it is
+                let priceLevel = _.findIndex(obAsk, function(level) {
+                    return (level.price == event.price);
+                });
+                //if new, add that price level to the orderbook
+                if(priceLevel == -1){
+                    obAsk.push({
+                        "price": parseFloat(event.price),
+                        "remaining": parseFloat(event.remaining)
+                    });
+                    //ob.sort(function(a,b) { return (a.price) - (b.price);}); //Optimization, don't need to do this each time b/c I do it once a second
+                    //console.log("Orderbook size: " + ob.length);
+                } else {
+                    //update that pricelevel in the orderbook
+                    obAsk[priceLevel].remaining = event.remaining;
+                    //Remove the priceLevel if remaining volume is 0
+                    if(obAsk[priceLevel].remaining == "0"){
+                        obAsk.splice(priceLevel, 1);
                     }
                     //console.log("Orderbook size: " + ob.length);        
                 }          
@@ -173,6 +205,9 @@ source.output.on("end", function(){
 
 
     }
+    //Write to csv
+    //Writing to file system is slow as fuck ... if you can save writing to the csv till one point at the very end it'll be a lot fast
+    csv.write(output, {headers: true}).pipe(writeableStream);
     csvStream.end();
 });
  
