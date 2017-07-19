@@ -1,0 +1,2453 @@
+[
+    "initialize",
+    1499558403.2323573
+],
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "357273.9",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.01",
+                "delta": "357273.9"
+            },
+            {
+                "side": "bid",
+                "remaining": "7560",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.02",
+                "delta": "7560"
+            },
+            {
+                "side": "bid",
+                "remaining": "14",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.05",
+                "delta": "14"
+            },
+            {
+                "side": "bid",
+                "remaining": "8643.857142",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.07",
+                "delta": "8643.857142"
+            },
+            {
+                "side": "bid",
+                "remaining": "158756",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.08",
+                "delta": "158756"
+            },
+            {
+                "side": "bid",
+                "remaining": "1",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.09",
+                "delta": "1"
+            },
+            {
+                "side": "bid",
+                "remaining": "220418.899996",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.10",
+                "delta": "220418.899996"
+            },
+            {
+                "side": "bid",
+                "remaining": "144713.613636",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.11",
+                "delta": "144713.613636"
+            },
+            {
+                "side": "bid",
+                "remaining": "23565.999998",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.12",
+                "delta": "23565.999998"
+            },
+            {
+                "side": "bid",
+                "remaining": "1343",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.13",
+                "delta": "1343"
+            },
+            {
+                "side": "bid",
+                "remaining": "8040.642855",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.14",
+                "delta": "8040.642855"
+            },
+            {
+                "side": "bid",
+                "remaining": "23809.733333",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.15",
+                "delta": "23809.733333"
+            },
+            {
+                "side": "bid",
+                "remaining": "450",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.16",
+                "delta": "450"
+            },
+            {
+                "side": "bid",
+                "remaining": "5787.117647",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.17",
+                "delta": "5787.117647"
+            },
+            {
+                "side": "bid",
+                "remaining": "2150",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.18",
+                "delta": "2150"
+            },
+            {
+                "side": "bid",
+                "remaining": "210.526315",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.19",
+                "delta": "210.526315"
+            },
+            {
+                "side": "bid",
+                "remaining": "112838.6",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.20",
+                "delta": "112838.6"
+            },
+            {
+                "side": "bid",
+                "remaining": "5365",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.21",
+                "delta": "5365"
+            },
+            {
+                "side": "bid",
+                "remaining": "3856.782608",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.23",
+                "delta": "3856.782608"
+            },
+            {
+                "side": "bid",
+                "remaining": "850",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.24",
+                "delta": "850"
+            },
+            {
+                "side": "bid",
+                "remaining": "56411.75",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.25",
+                "delta": "56411.75"
+            },
+            {
+                "side": "bid",
+                "remaining": "411.965384",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.26",
+                "delta": "411.965384"
+            },
+            {
+                "side": "bid",
+                "remaining": "1578",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.27",
+                "delta": "1578"
+            },
+            {
+                "side": "bid",
+                "remaining": "3222.77018",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.30",
+                "delta": "3222.77018"
+            },
+            {
+                "side": "bid",
+                "remaining": "1800",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.32",
+                "delta": "1800"
+            },
+            {
+                "side": "bid",
+                "remaining": "907.142857",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.35",
+                "delta": "907.142857"
+            },
+            {
+                "side": "bid",
+                "remaining": "2623",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.36",
+                "delta": "2623"
+            },
+            {
+                "side": "bid",
+                "remaining": "2500",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.37",
+                "delta": "2500"
+            },
+            {
+                "side": "bid",
+                "remaining": "5740",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.38",
+                "delta": "5740"
+            },
+            {
+                "side": "bid",
+                "remaining": "3722.5",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.40",
+                "delta": "3722.5"
+            },
+            {
+                "side": "bid",
+                "remaining": "2700",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.41",
+                "delta": "2700"
+            },
+            {
+                "side": "bid",
+                "remaining": "3076",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.43",
+                "delta": "3076"
+            },
+            {
+                "side": "bid",
+                "remaining": "2731.666666",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.45",
+                "delta": "2731.666666"
+            },
+            {
+                "side": "bid",
+                "remaining": "2000",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.47",
+                "delta": "2000"
+            },
+            {
+                "side": "bid",
+                "remaining": "7098",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.49",
+                "delta": "7098"
+            },
+            {
+                "side": "bid",
+                "remaining": "45616.46",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.50",
+                "delta": "45616.46"
+            },
+            {
+                "side": "bid",
+                "remaining": "3360.333332",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.51",
+                "delta": "3360.333332"
+            },
+            {
+                "side": "bid",
+                "remaining": "6425",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.52",
+                "delta": "6425"
+            },
+            {
+                "side": "bid",
+                "remaining": "4600",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.55",
+                "delta": "4600"
+            },
+            {
+                "side": "bid",
+                "remaining": "1754.385964",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.57",
+                "delta": "1754.385964"
+            },
+            {
+                "side": "bid",
+                "remaining": "158",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.58",
+                "delta": "158"
+            },
+            {
+                "side": "bid",
+                "remaining": "50000",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.59",
+                "delta": "50000"
+            },
+            {
+                "side": "bid",
+                "remaining": "1",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.62",
+                "delta": "1"
+            },
+            {
+                "side": "bid",
+                "remaining": "500",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.67",
+                "delta": "500"
+            },
+            {
+                "side": "bid",
+                "remaining": "296",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.69",
+                "delta": "296"
+            },
+            {
+                "side": "bid",
+                "remaining": "1011",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.75",
+                "delta": "1011"
+            },
+            {
+                "side": "bid",
+                "remaining": "3000",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.78",
+                "delta": "3000"
+            },
+            {
+                "side": "bid",
+                "remaining": "270",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.79",
+                "delta": "270"
+            },
+            {
+                "side": "bid",
+                "remaining": "643",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.80",
+                "delta": "643"
+            },
+            {
+                "side": "bid",
+                "remaining": "123.45679",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.81",
+                "delta": "123.45679"
+            },
+            {
+                "side": "bid",
+                "remaining": "1600",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.85",
+                "delta": "1600"
+            },
+            {
+                "side": "bid",
+                "remaining": "122.166666",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.90",
+                "delta": "122.166666"
+            },
+            {
+                "side": "bid",
+                "remaining": "1",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.92",
+                "delta": "1"
+            },
+            {
+                "side": "bid",
+                "remaining": "4232.616262",
+                "reason": "initial",
+                "type": "change",
+                "price": "0.99",
+                "delta": "4232.616262"
+            },
+            {
+                "side": "bid",
+                "remaining": "108330.87",
+                "reason": "initial",
+                "type": "change",
+                "price": "1.00",
+                "delta": "108330.87"
+            }
+        ],
+        "eventId": 904671255
+    },
+    "time": 1499558413.4351505
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "235.52",
+                "delta": "-297.637228"
+            }
+        ],
+        "eventId": 904671264
+    },
+    "time": 1499558413.5297693
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "51.553",
+                "reason": "place",
+                "type": "change",
+                "price": "248.06",
+                "delta": "51.553"
+            }
+        ],
+        "eventId": 904671271
+    },
+    "time": 1499558413.5458129
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "58.648389",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.42",
+                "delta": "-42.183"
+            }
+        ],
+        "eventId": 904671274
+    },
+    "time": 1499558413.5461004
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "50",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.43",
+                "delta": "-47.541"
+            }
+        ],
+        "eventId": 904671276
+    },
+    "time": 1499558413.546362
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "107.866",
+                "reason": "place",
+                "type": "change",
+                "price": "248.06",
+                "delta": "56.313"
+            }
+        ],
+        "eventId": 904671280
+    },
+    "time": 1499558413.5466467
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "50.393",
+                "reason": "place",
+                "type": "change",
+                "price": "247.22",
+                "delta": "50.393"
+            }
+        ],
+        "eventId": 904671283
+    },
+    "time": 1499558413.547137
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "249.57",
+                "delta": "-669.257042"
+            }
+        ],
+        "eventId": 904671303
+    },
+    "time": 1499558413.54742
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "297.649866",
+                "reason": "place",
+                "type": "change",
+                "price": "235.51",
+                "delta": "297.649866"
+            }
+        ],
+        "eventId": 904671307
+    },
+    "time": 1499558413.5476852
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "242.00",
+                "delta": "-289.667438"
+            }
+        ],
+        "eventId": 904671309
+    },
+    "time": 1499558413.547987
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "99.531",
+                "reason": "place",
+                "type": "change",
+                "price": "247.22",
+                "delta": "49.138"
+            }
+        ],
+        "eventId": 904671319
+    },
+    "time": 1499558413.548241
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "49.57",
+                "reason": "place",
+                "type": "change",
+                "price": "243.11",
+                "delta": "49.57"
+            }
+        ],
+        "eventId": 904671322
+    },
+    "time": 1499558413.5484873
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "102.621",
+                "reason": "place",
+                "type": "change",
+                "price": "243.11",
+                "delta": "53.051"
+            }
+        ],
+        "eventId": 904671325
+    },
+    "time": 1499558413.548734
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "9.356389",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.42",
+                "delta": "-49.292"
+            }
+        ],
+        "eventId": 904671327
+    },
+    "time": 1499558413.5490235
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "152.19",
+                "reason": "place",
+                "type": "change",
+                "price": "243.11",
+                "delta": "49.569"
+            }
+        ],
+        "eventId": 904671331
+    },
+    "time": 1499558413.5492745
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.38",
+                "delta": "-28.4566"
+            }
+        ],
+        "eventId": 904671336
+    },
+    "time": 1499558413.5495194
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "28.4689",
+                "reason": "place",
+                "type": "change",
+                "price": "245.22",
+                "delta": "28.4689"
+            }
+        ],
+        "eventId": 904671340
+    },
+    "time": 1499558413.5497666
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.258133",
+                "reason": "place",
+                "type": "change",
+                "price": "248.05",
+                "delta": "669.258133"
+            }
+        ],
+        "eventId": 904671343
+    },
+    "time": 1499558413.550046
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "288.333004",
+                "reason": "place",
+                "type": "change",
+                "price": "243.12",
+                "delta": "288.333004"
+            }
+        ],
+        "eventId": 904671349
+    },
+    "time": 1499558413.5503138
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.25764",
+                "reason": "place",
+                "type": "change",
+                "price": "252.60",
+                "delta": "669.25764"
+            }
+        ],
+        "eventId": 904671352
+    },
+    "time": 1499558413.5505679
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "254.94",
+                "delta": "-669.257393"
+            }
+        ],
+        "eventId": 904671357
+    },
+    "time": 1499558413.550814
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "1338.516266",
+                "reason": "place",
+                "type": "change",
+                "price": "248.05",
+                "delta": "669.258133"
+            }
+        ],
+        "eventId": 904671361
+    },
+    "time": 1499558413.5510634
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "235.51",
+                "delta": "-297.649866"
+            }
+        ],
+        "eventId": 904671363
+    },
+    "time": 1499558413.5513509
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.258133",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.05",
+                "delta": "-669.258133"
+            }
+        ],
+        "eventId": 904671367
+    },
+    "time": 1499558413.5516039
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "252.60",
+                "delta": "-669.25764"
+            }
+        ],
+        "eventId": 904671372
+    },
+    "time": 1499558413.5518549
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.256423",
+                "reason": "place",
+                "type": "change",
+                "price": "252.59",
+                "delta": "669.256423"
+            }
+        ],
+        "eventId": 904671376
+    },
+    "time": 1499558413.5521115
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.05",
+                "delta": "-669.258133"
+            }
+        ],
+        "eventId": 904671378
+    },
+    "time": 1499558413.5523995
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "297.208174",
+                "reason": "place",
+                "type": "change",
+                "price": "235.86",
+                "delta": "297.208174"
+            }
+        ],
+        "eventId": 904671382
+    },
+    "time": 1499558413.552654
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "243.12",
+                "delta": "-288.333004"
+            }
+        ],
+        "eventId": 904671384
+    },
+    "time": 1499558413.5529025
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "288.333004",
+                "reason": "place",
+                "type": "change",
+                "price": "243.12",
+                "delta": "288.333004"
+            }
+        ],
+        "eventId": 904671391
+    },
+    "time": 1499558413.5531567
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.258133",
+                "reason": "place",
+                "type": "change",
+                "price": "248.05",
+                "delta": "669.258133"
+            }
+        ],
+        "eventId": 904671394
+    },
+    "time": 1499558413.5534385
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.255206",
+                "reason": "place",
+                "type": "change",
+                "price": "252.58",
+                "delta": "669.255206"
+            }
+        ],
+        "eventId": 904671445
+    },
+    "time": 1499558413.5536977
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "235.86",
+                "delta": "-297.208174"
+            }
+        ],
+        "eventId": 904671447
+    },
+    "time": 1499558413.553971
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "252.59",
+                "delta": "-669.256423"
+            }
+        ],
+        "eventId": 904671450
+    },
+    "time": 1499558413.5542548
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.22",
+                "delta": "-28.4689"
+            }
+        ],
+        "eventId": 904671459
+    },
+    "time": 1499558413.5545336
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "28.4563",
+                "reason": "place",
+                "type": "change",
+                "price": "245.27",
+                "delta": "28.4563"
+            }
+        ],
+        "eventId": 904671463
+    },
+    "time": 1499558413.5547968
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "1338.516266",
+                "reason": "place",
+                "type": "change",
+                "price": "248.05",
+                "delta": "669.258133"
+            }
+        ],
+        "eventId": 904671490
+    },
+    "time": 1499558413.5550497
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.258133",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.05",
+                "delta": "-669.258133"
+            }
+        ],
+        "eventId": 904671546
+    },
+    "time": 1499558413.5553017
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.460464",
+                "reason": "place",
+                "type": "change",
+                "price": "248.50",
+                "delta": "669.257464"
+            }
+        ],
+        "eventId": 904671550
+    },
+    "time": 1499558413.5637289
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "252.58",
+                "delta": "-669.255206"
+            }
+        ],
+        "eventId": 904671636
+    },
+    "time": 1499558415.3832265
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.25764",
+                "reason": "place",
+                "type": "change",
+                "price": "252.60",
+                "delta": "669.25764"
+            }
+        ],
+        "eventId": 904671649
+    },
+    "time": 1499558415.7824846
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "297.208174",
+                "reason": "place",
+                "type": "change",
+                "price": "235.86",
+                "delta": "297.208174"
+            }
+        ],
+        "eventId": 904671652
+    },
+    "time": 1499558415.7836936
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "type": "trade",
+                "price": "245.44",
+                "tid": 904671658,
+                "makerSide": "ask",
+                "amount": "37.287"
+            },
+            {
+                "side": "ask",
+                "remaining": "0.00918",
+                "reason": "trade",
+                "type": "change",
+                "price": "245.44",
+                "delta": "-37.287"
+            }
+        ],
+        "eventId": 904671658
+    },
+    "time": 1499558415.9319506
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "type": "trade",
+                "price": "245.44",
+                "tid": 904671660,
+                "makerSide": "ask",
+                "amount": "0.00306"
+            },
+            {
+                "side": "ask",
+                "remaining": "0.00612",
+                "reason": "trade",
+                "type": "change",
+                "price": "245.44",
+                "delta": "-0.00306"
+            }
+        ],
+        "eventId": 904671660
+    },
+    "time": 1499558415.9331847
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "type": "trade",
+                "price": "245.44",
+                "tid": 904671662,
+                "makerSide": "ask",
+                "amount": "0.00306"
+            },
+            {
+                "side": "ask",
+                "remaining": "0.00306",
+                "reason": "trade",
+                "type": "change",
+                "price": "245.44",
+                "delta": "-0.00306"
+            }
+        ],
+        "eventId": 904671662
+    },
+    "time": 1499558415.989497
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "type": "trade",
+                "price": "245.44",
+                "tid": 904671664,
+                "makerSide": "ask",
+                "amount": "0.00306"
+            },
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "trade",
+                "type": "change",
+                "price": "245.44",
+                "delta": "-0.00306"
+            }
+        ],
+        "eventId": 904671664
+    },
+    "time": 1499558415.9896882
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "2.70382",
+                "reason": "place",
+                "type": "change",
+                "price": "245.44",
+                "delta": "2.70382"
+            }
+        ],
+        "eventId": 904671666
+    },
+    "time": 1499558415.9898248
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "102.621",
+                "reason": "cancel",
+                "type": "change",
+                "price": "243.11",
+                "delta": "-49.569"
+            }
+        ],
+        "eventId": 904671680
+    },
+    "time": 1499558415.9899879
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "53.051",
+                "reason": "cancel",
+                "type": "change",
+                "price": "243.11",
+                "delta": "-49.57"
+            }
+        ],
+        "eventId": 904671682
+    },
+    "time": 1499558415.9915174
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "243.11",
+                "delta": "-53.051"
+            }
+        ],
+        "eventId": 904671684
+    },
+    "time": 1499558415.993201
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "56.313",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.06",
+                "delta": "-51.553"
+            }
+        ],
+        "eventId": 904671686
+    },
+    "time": 1499558415.99539
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "44.422",
+                "reason": "place",
+                "type": "change",
+                "price": "245.59",
+                "delta": "44.422"
+            }
+        ],
+        "eventId": 904671690
+    },
+    "time": 1499558415.9961227
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.41",
+                "delta": "-22"
+            }
+        ],
+        "eventId": 904671710
+    },
+    "time": 1499558417.1102036
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.06",
+                "delta": "-56.313"
+            }
+        ],
+        "eventId": 904671716
+    },
+    "time": 1499558417.110515
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "354.317",
+                "reason": "cancel",
+                "type": "change",
+                "price": "241.99",
+                "delta": "-44.526"
+            }
+        ],
+        "eventId": 904671720
+    },
+    "time": 1499558417.110778
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "107.784",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.34",
+                "delta": "-51.478"
+            }
+        ],
+        "eventId": 904671722
+    },
+    "time": 1499558417.1110359
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "50.37",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.34",
+                "delta": "-57.414"
+            }
+        ],
+        "eventId": 904671725
+    },
+    "time": 1499558417.111166
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.34",
+                "delta": "-50.37"
+            }
+        ],
+        "eventId": 904671731
+    },
+    "time": 1499558417.1112977
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.05",
+                "delta": "-669.258133"
+            }
+        ],
+        "eventId": 904671737
+    },
+    "time": 1499558417.7175995
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "31.356389",
+                "reason": "place",
+                "type": "change",
+                "price": "245.42",
+                "delta": "22"
+            }
+        ],
+        "eventId": 904671750
+    },
+    "time": 1499558417.9651764
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "307.344",
+                "reason": "cancel",
+                "type": "change",
+                "price": "241.99",
+                "delta": "-46.973"
+            }
+        ],
+        "eventId": 904671759
+    },
+    "time": 1499558418.0048595
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "260.225",
+                "reason": "cancel",
+                "type": "change",
+                "price": "241.99",
+                "delta": "-47.119"
+            }
+        ],
+        "eventId": 904671762
+    },
+    "time": 1499558418.0062867
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "61.44182",
+                "reason": "place",
+                "type": "change",
+                "price": "245.44",
+                "delta": "58.738"
+            }
+        ],
+        "eventId": 904671765
+    },
+    "time": 1499558418.0126134
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "111.90282",
+                "reason": "place",
+                "type": "change",
+                "price": "245.44",
+                "delta": "50.461"
+            }
+        ],
+        "eventId": 904671775
+    },
+    "time": 1499558418.0245865
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "55.154",
+                "reason": "place",
+                "type": "change",
+                "price": "245.58",
+                "delta": "55.154"
+            }
+        ],
+        "eventId": 904671777
+    },
+    "time": 1499558418.0254498
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "1338.717928",
+                "reason": "place",
+                "type": "change",
+                "price": "248.50",
+                "delta": "669.257464"
+            }
+        ],
+        "eventId": 904671799
+    },
+    "time": 1499558418.4400807
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "289.667438",
+                "reason": "place",
+                "type": "change",
+                "price": "242.00",
+                "delta": "289.667438"
+            }
+        ],
+        "eventId": 904671801
+    },
+    "time": 1499558418.4442638
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.460464",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.50",
+                "delta": "-669.257464"
+            }
+        ],
+        "eventId": 904671804
+    },
+    "time": 1499558418.5470143
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "243.12",
+                "delta": "-288.333004"
+            }
+        ],
+        "eventId": 904671806
+    },
+    "time": 1499558418.5492185
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "252.60",
+                "delta": "-669.25764"
+            }
+        ],
+        "eventId": 904671810
+    },
+    "time": 1499558418.586666
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "235.86",
+                "delta": "-297.208174"
+            }
+        ],
+        "eventId": 904671812
+    },
+    "time": 1499558418.5914217
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.257393",
+                "reason": "place",
+                "type": "change",
+                "price": "254.94",
+                "delta": "669.257393"
+            }
+        ],
+        "eventId": 904671822
+    },
+    "time": 1499558418.761522
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "297.649866",
+                "reason": "place",
+                "type": "change",
+                "price": "235.51",
+                "delta": "297.649866"
+            }
+        ],
+        "eventId": 904671825
+    },
+    "time": 1499558418.765095
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0.203",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.50",
+                "delta": "-669.257464"
+            }
+        ],
+        "eventId": 904671827
+    },
+    "time": 1499558418.7689157
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "242.00",
+                "delta": "-289.667438"
+            }
+        ],
+        "eventId": 904671830
+    },
+    "time": 1499558418.7840219
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "289.667438",
+                "reason": "place",
+                "type": "change",
+                "price": "242.00",
+                "delta": "289.667438"
+            }
+        ],
+        "eventId": 904671834
+    },
+    "time": 1499558418.8343225
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "235.51",
+                "delta": "-297.649866"
+            }
+        ],
+        "eventId": 904671836
+    },
+    "time": 1499558418.8447
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.460464",
+                "reason": "place",
+                "type": "change",
+                "price": "248.50",
+                "delta": "669.257464"
+            }
+        ],
+        "eventId": 904671849
+    },
+    "time": 1499558419.0594638
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "254.94",
+                "delta": "-669.257393"
+            }
+        ],
+        "eventId": 904671851
+    },
+    "time": 1499558419.0738223
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "46.085",
+                "reason": "place",
+                "type": "change",
+                "price": "248.04",
+                "delta": "46.085"
+            }
+        ],
+        "eventId": 904671859
+    },
+    "time": 1499558419.1034296
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "51.025",
+                "reason": "place",
+                "type": "change",
+                "price": "247.77",
+                "delta": "51.025"
+            }
+        ],
+        "eventId": 904671861
+    },
+    "time": 1499558419.104845
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "55.358",
+                "reason": "place",
+                "type": "change",
+                "price": "247.48",
+                "delta": "55.358"
+            }
+        ],
+        "eventId": 904671864
+    },
+    "time": 1499558419.106974
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "211.852",
+                "reason": "cancel",
+                "type": "change",
+                "price": "241.99",
+                "delta": "-48.373"
+            }
+        ],
+        "eventId": 904671867
+    },
+    "time": 1499558419.1088682
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "161.966",
+                "reason": "cancel",
+                "type": "change",
+                "price": "241.99",
+                "delta": "-49.886"
+            }
+        ],
+        "eventId": 904671869
+    },
+    "time": 1499558419.1106234
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.254803",
+                "reason": "place",
+                "type": "change",
+                "price": "247.21",
+                "delta": "669.254803"
+            }
+        ],
+        "eventId": 904671873
+    },
+    "time": 1499558419.1389898
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0.203",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.50",
+                "delta": "-669.257464"
+            }
+        ],
+        "eventId": 904671875
+    },
+    "time": 1499558419.1723564
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.460464",
+                "reason": "place",
+                "type": "change",
+                "price": "248.50",
+                "delta": "669.257464"
+            }
+        ],
+        "eventId": 904671882
+    },
+    "time": 1499558419.5838323
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "247.21",
+                "delta": "-669.254803"
+            }
+        ],
+        "eventId": 904671890
+    },
+    "time": 1499558419.6553043
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.254803",
+                "reason": "place",
+                "type": "change",
+                "price": "247.21",
+                "delta": "669.254803"
+            }
+        ],
+        "eventId": 904671894
+    },
+    "time": 1499558419.6990915
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0.203",
+                "reason": "cancel",
+                "type": "change",
+                "price": "248.50",
+                "delta": "-669.257464"
+            }
+        ],
+        "eventId": 904671896
+    },
+    "time": 1499558419.758841
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.256128",
+                "reason": "place",
+                "type": "change",
+                "price": "252.49",
+                "delta": "669.256128"
+            }
+        ],
+        "eventId": 904671900
+    },
+    "time": 1499558419.7822006
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "247.21",
+                "delta": "-669.254803"
+            }
+        ],
+        "eventId": 904671902
+    },
+    "time": 1499558419.7979785
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "297.649866",
+                "reason": "place",
+                "type": "change",
+                "price": "235.51",
+                "delta": "297.649866"
+            }
+        ],
+        "eventId": 904671906
+    },
+    "time": 1499558419.8128713
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "242.00",
+                "delta": "-289.667438"
+            }
+        ],
+        "eventId": 904671908
+    },
+    "time": 1499558419.8290945
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.43",
+                "delta": "-50"
+            }
+        ],
+        "eventId": 904671911
+    },
+    "time": 1499558419.8638314
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "289.667438",
+                "reason": "place",
+                "type": "change",
+                "price": "242.00",
+                "delta": "289.667438"
+            }
+        ],
+        "eventId": 904671915
+    },
+    "time": 1499558419.8856433
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.254803",
+                "reason": "place",
+                "type": "change",
+                "price": "247.21",
+                "delta": "669.254803"
+            }
+        ],
+        "eventId": 904671918
+    },
+    "time": 1499558419.8971277
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "235.51",
+                "delta": "-297.649866"
+            }
+        ],
+        "eventId": 904671920
+    },
+    "time": 1499558419.9004312
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "252.49",
+                "delta": "-669.256128"
+            }
+        ],
+        "eventId": 904671923
+    },
+    "time": 1499558419.9625827
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "161.90282",
+                "reason": "place",
+                "type": "change",
+                "price": "245.44",
+                "delta": "50"
+            }
+        ],
+        "eventId": 904671927
+    },
+    "time": 1499558419.964317
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.256128",
+                "reason": "place",
+                "type": "change",
+                "price": "252.49",
+                "delta": "669.256128"
+            }
+        ],
+        "eventId": 904671930
+    },
+    "time": 1499558420.1121515
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "297.649866",
+                "reason": "place",
+                "type": "change",
+                "price": "235.51",
+                "delta": "297.649866"
+            }
+        ],
+        "eventId": 904671933
+    },
+    "time": 1499558420.120179
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "50.393",
+                "reason": "cancel",
+                "type": "change",
+                "price": "247.22",
+                "delta": "-49.138"
+            }
+        ],
+        "eventId": 904671935
+    },
+    "time": 1499558420.1483494
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "51.103",
+                "reason": "place",
+                "type": "change",
+                "price": "245.57",
+                "delta": "51.103"
+            }
+        ],
+        "eventId": 904671939
+    },
+    "time": 1499558420.170415
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "247.22",
+                "delta": "-50.393"
+            }
+        ],
+        "eventId": 904671942
+    },
+    "time": 1499558420.1768189
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "49.497",
+                "reason": "place",
+                "type": "change",
+                "price": "245.43",
+                "delta": "49.497"
+            }
+        ],
+        "eventId": 904671945
+    },
+    "time": 1499558420.177973
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "247.48",
+                "delta": "-55.358"
+            }
+        ],
+        "eventId": 904671947
+    },
+    "time": 1499558420.1802459
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "245.27",
+                "delta": "-28.4563"
+            }
+        ],
+        "eventId": 904671950
+    },
+    "time": 1499558420.1827088
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "247.21",
+                "delta": "-669.254803"
+            }
+        ],
+        "eventId": 904671953
+    },
+    "time": 1499558420.1838346
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "53.4643",
+                "reason": "place",
+                "type": "change",
+                "price": "245.23",
+                "delta": "28.4643"
+            }
+        ],
+        "eventId": 904671957
+    },
+    "time": 1499558420.189681
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "242.00",
+                "delta": "-289.667438"
+            }
+        ],
+        "eventId": 904671959
+    },
+    "time": 1499558420.2452956
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "289.667438",
+                "reason": "place",
+                "type": "change",
+                "price": "242.00",
+                "delta": "289.667438"
+            }
+        ],
+        "eventId": 904671963
+    },
+    "time": 1499558420.349834
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.460464",
+                "reason": "place",
+                "type": "change",
+                "price": "248.50",
+                "delta": "669.257464"
+            }
+        ],
+        "eventId": 904671966
+    },
+    "time": 1499558420.3516837
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "669.255168",
+                "reason": "place",
+                "type": "change",
+                "price": "252.97",
+                "delta": "669.255168"
+            }
+        ],
+        "eventId": 904671972
+    },
+    "time": 1499558420.751192
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "297.637228",
+                "reason": "place",
+                "type": "change",
+                "price": "235.52",
+                "delta": "297.637228"
+            }
+        ],
+        "eventId": 904671975
+    },
+    "time": 1499558420.7640045
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "ask",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "252.49",
+                "delta": "-669.256128"
+            }
+        ],
+        "eventId": 904671977
+    },
+    "time": 1499558420.8499878
+},
+{
+    "data": {
+        "type": "update",
+        "events": [
+            {
+                "side": "bid",
+                "remaining": "0",
+                "reason": "cancel",
+                "type": "change",
+                "price": "235.51",
+                "delta": "-297.649866"
+            }
+        ],
+        "eventId": 904671980
+    },
+    "time": 1499558420.857668
+}
